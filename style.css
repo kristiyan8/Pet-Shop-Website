@@ -1,0 +1,174 @@
+
+html {
+   background-color: #ffcd6f;
+}
+
+header {
+   width: 1600px;
+  height: 90px;
+   margin-top: 12px;
+   display: flex;
+  justify-content: space-between;
+  padding: 0px 25px;
+  align-items: center;
+  background-color: #00C9A7;
+  border-radius: 20px;
+}
+
+#mainHeader {
+   color: #845EC2;
+   font-family: "Great Vibes";
+   position:absolute;
+   left: 695px;
+}
+
+.phoneContact { 
+   width: 200px;
+   height: 65px;
+   border-radius: 10px;
+   font-size: 17px;
+   border: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #00C9A7;
+   color: black;
+ }
+
+.phoneContact:hover {
+   transition: background-color 600ms linear, color 600ms linear;
+   background-color:#ffcd6f;
+   color:black;
+   cursor: pointer;
+}
+
+header ul {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+header ul li
+{
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   color: black;
+   list-style: none;
+   margin-left: 80px;
+   margin-right: 80px;
+   font-weight: bold;
+   cursor: pointer;
+   border-radius: 8px;
+   padding: 4px;
+   background-color: #00b596;
+   border: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+header ul li  :hover {
+   
+   transition: background-color 300ms linear;
+    cursor:pointer;
+    background-color: #ffcd6f;
+}
+
+/* This is the main part from now on:  */
+
+main {   
+   height: 100vh;
+   background-color: #ffcd6f;
+   margin: auto;
+}
+
+.firstUl {
+   width: 1600px;
+   height: 30px;
+   border-radius: 20px;
+   margin-top: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #845EC2;
+   /* Make the heading sticky... position: sticky; */
+   
+}
+.firstList
+{
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   color: black;
+   list-style: none;
+   margin-left: 80px;
+   margin-right: 80px;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+main h1 {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bold;
+   color:black;
+   font-size: 60px;
+   text-align: center;
+
+}
+
+main p {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bold;
+   font-size: #000;
+   line-height: 30px;
+   margin-top: 25px;
+   margin-bottom: 25px;
+}
+
+main  button { 
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: black;
+  margin-top: 30px;
+}
+
+main button:hover {
+   transition: background-color 600ms linear, color 600ms linear;
+   background-color: #00C9A7;
+   color:darkorange;
+   cursor: pointer;
+}
+
+main img {
+   display: block;
+   width: 200px;
+   align-items: center;
+   margin-left: 750px;
+   margin-top: 50px;
+   margin-bottom: 20px;
+}
+
+.secondUl {
+   margin-top: 0;
+   display: flex;
+   border: 3px solid black;
+}
+
+.secondList {
+   width: 350px;
+   list-style-type: none;;
+   display: block;
+   margin-left: -110px;
+   
+   }
+
+/* Footer part from now on:  */
+
+footer p {
+   text-align: center;
+}
+
