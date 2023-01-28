@@ -50,12 +50,11 @@ header ul {
 
 header ul li
 {
-   font-family:Georgia, 'Times New Roman', Times, serif;
-   color: black;
+   font-family: Georgia, 'Times New Roman', Times, serif;
    list-style: none;
    margin-left: 80px;
    margin-right: 80px;
-   font-weight: bold;
+   font-weight: bolder;
    cursor: pointer;
    border-radius: 8px;
    padding: 4px;
@@ -66,11 +65,12 @@ header ul li
    align-items: center;
 }
 
-header ul li  :hover {
+header ul :hover {
    
-   transition: background-color 300ms linear;
+   transition: background-color 300ms linear, color 300ms linear;
     cursor:pointer;
     background-color: #ffcd6f;
+    color: #000;
 }
 
 /* This is the main part from now on:  */
@@ -93,6 +93,7 @@ main {
    /* Make the heading sticky... position: sticky; */
    
 }
+
 .firstList
 {
    font-family:Georgia, 'Times New Roman', Times, serif;
@@ -102,8 +103,14 @@ main {
    margin-right: 80px;
    font-weight: bold;
    cursor: pointer;
+   border-radius: 8px;
+   padding: 4px;
 }
 
+.firstUl :hover {
+   transition: background-color 600ms linear;
+   background-color: #ffcd6f;
+}
 main h1 {
    font-family: Georgia, 'Times New Roman', Times, serif;
    font-weight: bold;
@@ -143,27 +150,23 @@ main button:hover {
    cursor: pointer;
 }
 
-main img {
-   display: block;
+section img {
+   margin-top: 10px;
+   position: relative;
    width: 200px;
-   align-items: center;
-   margin-left: 750px;
-   margin-top: 50px;
-   margin-bottom: 20px;
+   left: 50%;
+   right: 50%;
+   margin-bottom: 10px;
+   height: 200px;
 }
 
 .secondUl {
-   margin-top: 0;
    display: flex;
-   border: 3px solid black;
 }
 
 .secondList {
-   width: 350px;
-   list-style-type: none;;
-   display: block;
-   margin-left: -110px;
-   
+   list-style: none;
+   width: 450px;
    }
 
 /* Footer part from now on:  */
@@ -172,3 +175,10 @@ footer p {
    text-align: center;
 }
 
+main img {
+   position: relative;
+   left: 50%;
+   right: 50%;
+   height: 200px;
+   width: 200px;
+}
