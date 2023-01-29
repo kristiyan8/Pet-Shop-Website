@@ -17,9 +17,11 @@ header {
 
 #mainHeader {
    color: #e5e5c9;
-   font-family: "Great Vibes";
+   font-family: 'Permanent Marker', cursive;
+   height: 30px;
    position:absolute;
    left: 740px;
+   top: 15px;
 }
 
 .phoneContact { 
@@ -46,28 +48,30 @@ header ul {
    display: flex;
    justify-content: center;
    align-items: center;
+   
 }
-
-header ul li
-{
-   font-family: Georgia, 'Times New Roman', Times, serif;
+header ul li {
    list-style: none;
+   background-color: #00b596;
    margin-left: 80px;
    margin-right: 80px;
-   font-weight: bolder;
    cursor: pointer;
-   border-radius: 8px;
-   padding: 4px;
-   background-color: #00b596;
    border: none;
    display: flex;
    justify-content: center;
    align-items: center;
 }
+header ul li a {
+   font-family: 'Sofia Sans', sans-serif;
+   text-decoration: none;
+   font-weight: bolder;
+   border-radius: 8px;
+   padding: 4px;
+}
 
 header ul li:nth-child(1)
 {
-   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-family: 'Sofia Sans', sans-serif;
    font-weight: bolder;
    cursor: pointer;
    border-radius: 8px;
@@ -80,7 +84,7 @@ header ul li:nth-child(1)
 
 header ul li:nth-child(2)
 {
-   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-family: 'Sofia Sans', sans-serif;
    font-weight: bolder;
    cursor: pointer;
    border-radius: 8px;
@@ -93,7 +97,7 @@ header ul li:nth-child(2)
 
 header ul li:nth-child(3)
 {
-   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-family: 'Sofia Sans', sans-serif;
    font-weight: bolder;
    cursor: pointer;
    border-radius: 8px;
@@ -106,7 +110,7 @@ header ul li:nth-child(3)
 
 header ul li:nth-child(4)
 {
-   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-family: 'Sofia Sans', sans-serif;
    font-weight: bolder;
    cursor: pointer;
    border-radius: 8px;
@@ -119,7 +123,7 @@ header ul li:nth-child(4)
 
 header ul li:nth-child(5)
 {
-   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-family: 'Sofia Sans', sans-serif;
    font-weight: bolder;
    cursor: pointer;
    border-radius: 8px;
@@ -158,9 +162,8 @@ main {
    
 }
 
-.firstList
-{
-   font-family:Georgia, 'Times New Roman', Times, serif;
+.firstList {
+   font-family: 'Sofia Sans', sans-serif;
    color: black;
    list-style: none;
    margin-left: 80px;
@@ -175,8 +178,9 @@ main {
    transition: background-color 600ms linear;
    background-color: #ffcd6f;
 }
+
 main h1 {
-   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-family: 'Sofia Sans', sans-serif;
    font-weight: bold;
    color:black;
    font-size: 60px;
@@ -185,12 +189,16 @@ main h1 {
 }
 
 main p {
-   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-family: 'Sofia Sans', sans-serif;
    font-weight: bold;
    font-size: #000;
    line-height: 30px;
    margin-top: 25px;
    margin-bottom: 25px;
+}
+
+main h2 {
+   font-family: 'Sofia Sans', sans-serif;
 }
 
 main  button { 
@@ -205,6 +213,7 @@ main  button {
   background-color: transparent;
   color: black;
   margin-top: 30px;
+  font-family: 'Sofia Sans', sans-serif;
 }
 
 main button:hover {
@@ -225,24 +234,24 @@ section img {
 }
 
 .secondUl {
-   display: flex;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(3, 200px);
+   list-style: none;
 }
 
-.secondList {
-   list-style: none;
-   width: 450px;
-   }
+.secondList img{
+   height: 200px;
+   width: 200px;
+   cursor: pointer;
+}
+
+.secondList p {
+   cursor: pointer;
+}
 
 /* Footer part from now on:  */
 
 footer p {
    text-align: center;
-}
-
-main img {
-   position: relative;
-   left: 50%;
-   right: 50%;
-   height: 200px;
-   width: 200px;
 }
