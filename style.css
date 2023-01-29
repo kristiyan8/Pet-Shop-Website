@@ -16,10 +16,10 @@ header {
 }
 
 #mainHeader {
-   color: #845EC2;
+   color: #e5e5c9;
    font-family: "Great Vibes";
    position:absolute;
-   left: 695px;
+   left: 740px;
 }
 
 .phoneContact { 
@@ -65,8 +65,72 @@ header ul li
    align-items: center;
 }
 
+header ul li:nth-child(1)
+{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bolder;
+   cursor: pointer;
+   border-radius: 8px;
+   padding: 4px;
+   background-color: #00C9A7;
+   border: none;
+   position: relative;
+   left: -6%;
+}
+
+header ul li:nth-child(2)
+{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bolder;
+   cursor: pointer;
+   border-radius: 8px;
+   padding: 4px;
+   background-color: #00C9A7;
+   border: none;
+   position: relative;
+   left: -6%;
+}
+
+header ul li:nth-child(3)
+{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bolder;
+   cursor: pointer;
+   border-radius: 8px;
+   padding: 4px;
+   background-color: #00C9A7;
+   border: none;
+   position: relative;
+   left: -6%;
+}
+
+header ul li:nth-child(4)
+{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bolder;
+   cursor: pointer;
+   border-radius: 8px;
+   padding: 4px;
+   background-color: #00C9A7;
+   border: none;
+   position: relative;
+   left: 9%;
+}
+
+header ul li:nth-child(5)
+{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bolder;
+   cursor: pointer;
+   border-radius: 8px;
+   padding: 4px;
+   background-color: #00C9A7;
+   border: none;
+   position: relative;
+   left: 10%;
+}
+
 header ul :hover {
-   
    transition: background-color 300ms linear, color 300ms linear;
     cursor:pointer;
     background-color: #ffcd6f;
@@ -154,7 +218,7 @@ section img {
    margin-top: 10px;
    position: relative;
    width: 200px;
-   left: 50%;
+   left: 44%;
    right: 50%;
    margin-bottom: 10px;
    height: 200px;
