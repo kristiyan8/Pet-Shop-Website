@@ -1,6 +1,7 @@
 
 html {
    background-color: #ffcd6f;
+   /* background-image: linear-gradient(to right, #a83377, #b1366a, #b63c5e, #b94453, #b94e49, #bb5643, #bc5e3e, #bc6639, #c06e35, #c37630, #c47e2b, #c58726 */
 }
 
 header {
@@ -38,7 +39,7 @@ header {
  }
 
 .phoneContact:hover {
-   transition: background-color 600ms linear, color 600ms linear;
+   transition: background-color 600ms ease-in-out, color 600ms ease-in-out;
    background-color:#ffcd6f;
    color:black;
    cursor: pointer;
