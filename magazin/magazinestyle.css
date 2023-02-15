@@ -1,41 +1,78 @@
 html {
-    background-color: #ffcd6f;
-    /* background-image: linear-gradient(to right, #a83377, #b1366a, #b63c5e, #b94453, #b94e49, #bb5643, #bc5e3e, #bc6639, #c06e35, #c37630, #c47e2b, #c58726 */
- }
+   background-color: #ffcd6f;
+   /* background-image: linear-gradient(to right, #a83377, #b1366a, #b63c5e, #b94453, #b94e49, #bb5643, #bc5e3e, #bc6639, #c06e35, #c37630, #c47e2b, #c58726 */
+}
 
- header {
-    width: 1600px;
-   height: 90px;
-    margin-top: 12px;
-    display: flex;
-   justify-content: space-between;
-   padding: 0px 25px;
+header {
+   width: 1600px;
+  height: 90px;
+   margin-top: 12px;
+   display: flex;
+  justify-content: space-between;
+  padding: 0px 25px;
+  align-items: center;
+  background-color: #00C9A7;
+  border-radius: 20px;
+}
+
+#mainHeader {
+   color: #e5e5c9;
+   font-family: 'Permanent Marker', cursive;
+   height: 30px;
+   position:absolute;
+   left: 740px;
+   top: 15px;
+}
+
+.phoneContact { 
+   width: 200px;
+   height: 65px;
+   border-radius: 10px;
+   font-size: 17px;
+   border: none;
+   display: flex;
+   justify-content: center;
    align-items: center;
    background-color: #00C9A7;
-   border-radius: 20px;
+   color: black;
  }
- 
- #mainHeader {
-    color: #e5e5c9;
-    font-family: 'Permanent Marker', cursive;
-    height: 30px;
-    position:absolute;
-    left: 740px;
-    top: 15px;
- }
- header ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
- }
- 
- header .firstUl{
-   color: red;
-   font-family: 'permanet marker ', bold;
-   height: 40px;
-   position:absolute;
-   
 
- }
- 
+.phoneContact:hover {
+   transition: background-color 600ms ease-in-out, color 600ms ease-in-out;
+   background-color:#ffcd6f;
+   color:black;
+   cursor: pointer;
+}
+
+header ul {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+header ul li {
+   list-style: none;
+   background-color: #00b596;
+   margin-left: 80px;
+   margin-right: 80px;
+   cursor: pointer;
+   border: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+header ul li a {
+   font-family: 'Sofia Sans', sans-serif;
+   text-decoration: none;
+   font-weight: bolder;
+   border-radius: 8px;
+   padding: 4px;
+}
+
+.heading{
+   padding-bottom: 2rem;
+   text-align: center;
+   font-size: 3rem;
+   color: black;
+}
+
