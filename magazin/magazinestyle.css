@@ -75,3 +75,21 @@ header ul li a {
    font-size: 3rem;
    color: black;
 }
+
+ .headingshop{
+   padding-bottom: 32px;
+   text-align: center;
+   font-size: 56px;
+   color: black;
+
+}
+
+.magazin .box{
+   position: relative;
+   overflow: hidden;
+   
+   content{
+      
+   }
+
+}
