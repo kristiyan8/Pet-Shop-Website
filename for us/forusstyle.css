@@ -256,4 +256,11 @@ html {
     text-align: center;
  }
 
- 
+ .about{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   gap:32px;
+
+
+ }
