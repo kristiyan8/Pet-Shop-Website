@@ -264,3 +264,15 @@ html {
 
 
  }
+.about .image{
+   flex:640xp;
+
+   width: 1500px;  
+
+}
+
+.image image{
+   max-width: 100%;
+   max-height: 100%;
+}
+ 
