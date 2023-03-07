@@ -256,23 +256,31 @@ html {
     text-align: center;
  }
 
- .about{
+ 
+ section image {
+   margin-top: 10px;
+   position: relative;
+   width: 200px;
+   left: 44%;
+   right: 50%;
+   margin-bottom: 30px;
+   height: 200px;
+   
+  
+
+}
+.about{
    display: flex;
    align-items: center;
    flex-wrap: wrap;
    gap:32px;
 
-
- }
-.about .image{
-   flex:640xp;
-
-   width: 1500px;  
+   
 
 }
+.about img{
+   max-width: 200px;  
+   height: 200px;  
+   position:relative;
 
-.image image{
-   max-width: 100%;
-   max-height: 100%;
 }
- 
