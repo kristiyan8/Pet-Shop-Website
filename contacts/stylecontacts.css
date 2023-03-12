@@ -255,3 +255,29 @@ html {
  footer p {
     text-align: center;
  }
+
+ .contact{
+   padding: 2rem 0;
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 3rem;
+   
+ }
+
+ .contact .image{
+   flex: 1 1 40rem;
+   width: 100%;
+
+   
+ }
+ form{
+   flex:1 1 40rem;
+   padding: 2rem 7%;
+
+   
+ }
+
+
+
+ 
