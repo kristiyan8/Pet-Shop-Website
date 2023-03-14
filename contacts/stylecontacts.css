@@ -265,17 +265,52 @@ html {
    
  }
 
- .contact .image{
-   flex: 1 1 40rem;
-   width: 100%;
-
+ .contact .row{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1,5rem;
    
+
  }
-  form{
+ .contact .row form{
+   flex:1 1 40rem;
+   padding: 2rem 3rem;
+   box-shadow: 0 .5rem 1.5rem  black;
+   border: .1rem solid black;
+   background: white;
+   border-radius: .5rem;
+
+
+ }
+ .contact .row image{
    flex:1 1 40rem;
    padding: 2rem 7%;
+ }
 
+ .contact .row image img{
+   width: 100%;
    
+ }
+
+ .contact .row form .box{
+   padding: 1rem;
+   font-size: 1.7rem;
+   color:#333;
+   text-transform: none;
+   border:.1 solid black;
+   border-radius: .5rem;
+   margin: .7rem 0;
+   width: 100%;
+
+ }
+ .contact .row form .box:focus{
+   border-color: var(--pink);
+
+ }
+ .contact .row form textarea{
+   height: 15rem;
+   resize:none;
+
  }
  .btn{
    background-color: white;
@@ -288,28 +323,6 @@ html {
    font-size: 16px;
    margin: 4px 2px;
    cursor: pointer;
-}
-h3{
-   font-size: 3rem;
-   padding-bottom: 1rem;
-   color: black;
-
-}
- .box, textarea{
-   width: 100%;
-   border-bottom: border;
-   border-width: .1rem;
-   font-size: 1,6rem;
-   text-transform: none;
-   color:black;
-   padding: 1,5rem 0;
-   margin : 1rem 0;
-
- 
-}
-textarea{
-   height: 15rem;
-   resize: none;
 }
 
 
