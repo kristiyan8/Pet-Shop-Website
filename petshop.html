@@ -9,6 +9,7 @@
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1496/1496967.png"
     type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="slideshow" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,6 +23,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="PetshopCards.css">
 </head>
+<style>
+    .mySlides {display:none}
+    .w3-left, .w3-right, .w3-badge {cursor:pointer}
+    .w3-badge {height:13px;width:13px;padding:0}
+</style>
 <body>
     <header>
         <h1 id="mainHeader">Petshop</h1>
@@ -34,6 +40,7 @@
                     <li><a href="promotions.html" target="_blank">Промоции</a></li>
                     <li><a href="Contacts.html" target="_blank">Контакти</a></li>
                 </ul>
+                
             </nav>
             <button class="phoneContact"><ion-icon name="call-outline"></ion-icon>02/947 2582 0845126890</button>
     </header>
@@ -44,8 +51,58 @@
                 <li class="firstList">Рибки</li>
                 <li class="firstList">Гризачи</li>
             </ul>
-            <img src="https://img.freepik.com/premium-vector/cute-petshop-logo-with-cat-dog_454510-56.jpg?w=996" alt="pet shop img"> 
+            
         </section>
+        <div class="slideshow">
+            <div class="w3-content w3-display-container" style="max-width:1000px">
+                <img class="mySlides" src="catphoto.jpg" style="width:100%">
+                <img class="mySlides" src="dog photo.jpg" style="width:100%">
+                <img class="mySlides" src="bird phot.jpg" style="width:100%">
+                <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                  <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                  <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+                  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                </div>
+              </div>
+              
+              <script>
+              var slideIndex = 1;
+              showDivs(slideIndex);
+              
+              function plusDivs(n) {
+                showDivs(slideIndex += n);
+              }
+              
+              function currentDiv(n) {
+                showDivs(slideIndex = n);
+              }
+              
+              function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("demo");
+                if (n > x.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = x.length}
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.display = "none";  
+                }
+                for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" w3-white", "");
+                }
+                x[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " w3-white";
+              }
+              </script>
+
+
+        </div>
+
+
+
+
+
         <main>
             <h1 class="greetingHeader">Грижа за домашните любимци</h1>
             <h2>Топ качество</h2>
@@ -85,7 +142,7 @@
                     </div>
 
                     <div class="content">
-                    <h4 class="content__title"><a href="">Храна за кучета с повече витамини</a></h4>
+                    <h4 class="content__title"><a href="">Храна за кучета </a></h4>
                     <p class="content__description"> С повече фокус върху витамини и месо</p>
                     <div class="amount">15лв(-40%)</div>
                     </div>
@@ -98,7 +155,7 @@
 
                     <div class="content">
                     <h4 class="content__title"><a href="">Храна за котки</a></h4>
-                    <p class="content__description"> БОГАТА НА МЕСО И ПРОТЕИНИ; ГОЛЯМО РАЗНООБРАЗИЕ ОТ МЕСА</p>
+                    <p class="content__description"> Богата на разнообразие и месо</p>
                     <div class="amount">12лв(-20%)</div>
                     </div>
                 </article>
@@ -110,8 +167,9 @@
                     </div>
 
                     <div class="content">
-                    <h4 class="content__title"><a href="">Acana Adult Large Breed</a></h4>
-                    <p class="content__description"> БОГАТА НА МЕСО И ПРОТЕИНИ; ГОЛЯМО РАЗНООБРАЗИЕ ОТ МЕСА; ОГРАНИЧЕНО КОЛИЧЕСТВО ВЪГЛЕХИДРАТИ</p>
+                    <h4 class="content__title"><a href="">Acana Adult Large Breed храна</a></h4>
+                    <p class="content__description"> Разполага с различни видове протеин</p>
+                    <div class="amount">15лв(-35%)</div>
                     </div>
                 </article>
                 <article class="product">
@@ -121,8 +179,9 @@
                     </div>
 
                     <div class="content">
-                    <h4 class="content__title"><a href="">Acana Adult Large Breed</a></h4>
-                    <p class="content__description"> БОГАТА НА МЕСО И ПРОТЕИНИ; ГОЛЯМО РАЗНООБРАЗИЕ ОТ МЕСА; ОГРАНИЧЕНО КОЛИЧЕСТВО ВЪГЛЕХИДРАТИ</p>
+                    <h4 class="content__title"><a href="">Acana Adult за кучета</a></h4>
+                    <p class="content__description">С по-манлко въглехидрати</p>
+                    <div class="amount">18лв(-40%)</div>
                     </div>
                 </article>
         </main>
