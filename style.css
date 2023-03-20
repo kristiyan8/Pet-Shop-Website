@@ -142,6 +142,16 @@ header ul :hover {
     color: #000;
 }
 
+.display-container{
+   display: flex;
+   justify-content:center;
+    align-items: center;
+    margin:50px auto;
+   
+}
+
+
+
 /* This is the main part from now on:  */
 
 main {   
