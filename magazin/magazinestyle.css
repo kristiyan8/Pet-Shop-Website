@@ -514,11 +514,7 @@ footer p {
    box-sizing: border-box;
  }
  
- .column {
-   float: left;
-   width: 50%;
-   padding: 5px;
- }
+ 
  
  /* Clearfix (clear floats) */
  .row::after {
@@ -535,4 +531,43 @@ footer p {
  }
  .amount{
    text-align: center;
+ }
+
+ .box-container {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   
+ }
+ .column .amount{
+   position: relative;
+   left: 80px;
+   font-size: 21px;
+   font-family: sans-serif;
+ }
+
+ .content1 {
+   display: flex;
+   justify-content: center;
+   font-size: 25px;
+   margin-top: -60px;
+   font-family: sans-serif;
+ }
+
+ .content2 {
+   position: relative;
+   left: 650px;
+   font-size: 25px;
+   font-family: sans-serif;
+ }
+
+ .column {
+   border: 1px solid black;
+   display: flex;
+   justify-content: center;
+   width: 25%;
+   padding: 5px;
+ }
+ .column img {
+   height: 30%;
  }
