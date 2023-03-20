@@ -514,7 +514,7 @@ footer p {
    box-sizing: border-box;
  }
  
- 
+ /*magazina zapochva 
  
  /* Clearfix (clear floats) */
  .row::after {
@@ -539,11 +539,24 @@ footer p {
    flex-direction: column;
    
  }
+  
+ .row{
+   display: flex;
+   justify-content: center;
+ }
+ .row .column{
+   
+   display: flex;
+   justify-content: center;
+   width: 25%;
+   padding: 5px;
+ }
  .column .amount{
    position: relative;
    left: 80px;
    font-size: 21px;
    font-family: sans-serif;
+   bottom: 25px;
  }
 
  .content1 {
@@ -553,21 +566,93 @@ footer p {
    margin-top: -60px;
    font-family: sans-serif;
  }
+ .column img {
+   height: 30%;
+ }
+
+ .row2{
+   display: flex;
+   justify-content: center;
+ }
+ .row2 .column2{
+   display: flex;
+   justify-content: center;
+   width: 25%;
+   padding: 5px;
+
+ }
 
  .content2 {
    position: relative;
    left: 650px;
    font-size: 25px;
+   margin-top: -60px;
+   font-family: sans-serif;
+ }
+ .column2 .amount2{
+   position: relative;
+   left: 80px;
+   font-size: 21px;
    font-family: sans-serif;
  }
 
- .column {
-   border: 1px solid black;
+
+
+
+ .row3{
+   display: flex;
+   justify-content: center;
+ }
+ .row3 .column3{
+   display: flex;
+   justify-content: center;
+   width: 25%;
+   padding: 5px;
+
+ }
+
+
+ .content3 {
+   position: relative;
+   left: 650px;
+   font-size: 25px;
+   margin-top: -60px;
+   font-family: sans-serif;
+ }
+ .column3 .amount3{
+   position: relative;
+   left: 80px;
+   font-size: 21px;
+   font-family: sans-serif;
+ }
+
+
+.row4 {
+   display: flex;
+   justify-content: center;
+}
+.row4 .column4{
    display: flex;
    justify-content: center;
    width: 25%;
    padding: 5px;
  }
- .column img {
-   height: 30%;
+
+
+ .content4 {
+   position: relative;
+   left: 650px;
+   font-size: 25px;
+   margin-top: -60px;
+   font-family: sans-serif;
  }
+ 
+ 
+ .column4 .amount4{
+   position: relative;
+   left: 80px;
+   font-size: 21px;
+   font-family: sans-serif;
+ }
+
+ 
