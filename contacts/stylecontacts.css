@@ -312,19 +312,47 @@ html {
  .contact .row form textarea{
    height: 15rem;
    resize:none;
+   width: 5rem;
+   
 
  }
  .btn{
    background-color: white;
    border: none;
    color: black;
-   padding: 15px 32px;
+   padding: 5px 3px;
    text-align: center;
    text-decoration: none;
    display: inline-block;
    font-size: 16px;
    margin: 4px 2px;
    cursor: pointer;
+}
+form{
+   flex: 1 1 40rem;
+   padding: 2rem 7%;
+
+   
+}
+.btn{
+   @include form-btn();
+}
+
+h3{
+   font-size: 3rem;
+   padding-bottom: 1rem;
+   color:black;
+}
+form .box{
+   width: 100%;
+   border-bottom: border;
+   border-width: .1rem;
+   font-size: 1,6rem;
+   text-transform: none;
+   color: black;
+   padding: 1rem 0;
+   margin: 1,5rem 0;
+
 }
 
 

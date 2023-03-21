@@ -141,6 +141,16 @@ header ul :hover {
     color: #000;
 }
 
+.display-container{
+   display: flex;
+   justify-content:center;
+    align-items: center;
+    margin:50px auto;
+   
+}
+
+
+
 /* This is the main part from now on:  */
 
 main {   
@@ -553,7 +563,7 @@ footer p {
  }
  .column .amount{
    position: relative;
-   left: 80px;
+   left: 90px;
    font-size: 21px;
    font-family: sans-serif;
    bottom: 25px;
@@ -563,11 +573,11 @@ footer p {
    display: flex;
    justify-content: center;
    font-size: 25px;
-   margin-top: -60px;
+   margin-top: 60px;
    font-family: sans-serif;
  }
  .column img {
-   height: 30%;
+   height: 80%;
  }
 
  .row2{
@@ -596,6 +606,10 @@ footer p {
    font-family: sans-serif;
  }
 
+ .column2 img{
+   height: 80%;
+ }
+
 
 
 
@@ -616,7 +630,7 @@ footer p {
    position: relative;
    left: 650px;
    font-size: 25px;
-   margin-top: -60px;
+   margin-top: 60px;
    font-family: sans-serif;
  }
  .column3 .amount3{
@@ -624,6 +638,10 @@ footer p {
    left: 80px;
    font-size: 21px;
    font-family: sans-serif;
+ }
+
+ .column3 img{
+   height: 80%;
  }
 
 
@@ -643,7 +661,7 @@ footer p {
    position: relative;
    left: 650px;
    font-size: 25px;
-   margin-top: -60px;
+   margin-top: 60px;
    font-family: sans-serif;
  }
  
@@ -654,5 +672,7 @@ footer p {
    font-size: 21px;
    font-family: sans-serif;
  }
-
+.column4 img{
+   height: 80%;
+}
  
