@@ -273,18 +273,20 @@ html {
 
  }
  .contact .row form{
-   flex:1 1 40rem;
+   display: flex;
+   justify-content: center;
+   flex:1 1 10rem;
    padding: 2rem 3rem;
    box-shadow: 0 .5rem 1.5rem  black;
    border: .1rem solid black;
    background: white;
-   border-radius: .5rem;
+   border-radius: 5rem;
 
 
  }
  .contact .row image{
    flex:1 1 40rem;
-   padding: 2rem 7%;
+   padding: 2rem 5%;
  }
 
  .contact .row image img{
@@ -292,7 +294,7 @@ html {
    
  }
 
- .contact .row form .box{
+ .contact  .box{
    padding: 1rem;
    font-size: 1.7rem;
    color:#333;
@@ -300,7 +302,7 @@ html {
    border:.1 solid black;
    border-radius: .5rem;
    margin: .7rem 0;
-   width: 100%;
+   width: 50%;
 
  }
  .contact .row form .box:focus{
