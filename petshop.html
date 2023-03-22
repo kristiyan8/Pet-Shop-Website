@@ -53,37 +53,70 @@
                 <li class="firstList">Рибки</li>
                 <li class="firstList">Гризачи</li>
             </ul>
-            
-        </section>
-       <div class="SlideShow">
-        <div class="display-container">
-            <img class="mySlides" src="dog photo.jpg" style="width: 500px;" height="400px;">
-            <img class="mySlides" src="catphoto.jpg" style="width: 500px;" height="400px;">
-            <img class="mySlides" src="rabbit.jpg" style="width:500px;" height="400px">
-            <button class="button-left" onclick="plusDivs(-1)">&#10094;</button>
-            <button class="button-right" onclick="plusDivs(1)">&#10095;</button>
-        </div>
-        <script>
-            var slideIndex = 1;
-            showDivs(slideIndex);
-            
-            function plusDivs(n) {
-              showDivs(slideIndex += n);
-            }
-            
-            function showDivs(n) {
-              var i;
-              var x = document.getElementsByClassName("mySlides");
-              if (n > x.length) {slideIndex = 1}
-              if (n < 1) {slideIndex = x.length}
-              for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";  
-              }
-              x[slideIndex-1].style.display = "block";  
-            }
-            </script>
-       </div>
 
+            <body>
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 3</div>
+                      <img src="pets.jpg" style="width:100%">
+                      
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 3</div>
+                      <img src="catphoto.jpg" style="width:100%">
+                      
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 3</div>
+                      <img src="rabbit.jpg" style="width:100%">
+                      
+                    </div>
+                    
+                    
+                    </div>
+                    <br>
+                    
+                    <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span> 
+                      <span class="dot" onclick="currentSlide(2)"></span> 
+                      <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
+                    
+                    <script>
+                    let slideIndex = 1;
+                    showSlides(slideIndex);
+                    
+                    function plusSlides(n) {
+                      showSlides(slideIndex += n);
+                    }
+                    
+                    function currentSlide(n) {
+                      showSlides(slideIndex = n);
+                    }
+                    
+                    function showSlides(n) {
+                      let i;
+                      let slides = document.getElementsByClassName("mySlides");
+                      let dots = document.getElementsByClassName("dot");
+                      if (n > slides.length) {slideIndex = 1}    
+                      if (n < 1) {slideIndex = slides.length}
+                      for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                      }
+                      for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                      }
+                      slides[slideIndex-1].style.display = "block";  
+                      dots[slideIndex-1].className += " active";
+                    }
+                    </script>
+            </body>
+            
+        
+               
         <main>
             <h1 class="greetingHeader">Грижа за домашните любимци</h1>
             <h2>Топ качество</h2>
@@ -177,7 +210,7 @@
                     <imput type="text" placeholder="your name" class="box">
                     <imput type="number" placeholder="your number" class="box">
                     <imput type="email" placeholder="your email" class="box">
-                    <textarea name = ""  class = "box" placeholder="your message" id = "" cols="30" rows="20"></textarea>
+                    <textarea name = ""  class = "box" placeholder="your message" id = "" cols="40" rows="30"></textarea>
                     
                     <imput type ="submit" value="send message" class="btn"></imput>
 

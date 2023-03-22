@@ -12,8 +12,8 @@
     border-radius: 25px;
     overflow: hidden;
     padding: 12px;
-    max-width: 200px;
-    max-height: 370px;
+    max-width: 600px;
+    max-height: 470px;
     margin-left: 35px;
     box-shadow: 1px 0.8px 0.2px 0px;
 }
@@ -30,6 +30,7 @@
     height: 200px;
     display: block;
     max-width: 100%;
+    left: 50px;
 }
 
 .content__description {
