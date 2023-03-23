@@ -560,6 +560,8 @@ footer p {
    justify-content: center;
    width: 25%;
    padding: 5px;
+   
+  
  }
  .column .amount{
    position: relative;
@@ -578,6 +580,9 @@ footer p {
  }
  .column img {
    height: 80%;
+   display: block;
+   
+   
  }
 
  .row2{
