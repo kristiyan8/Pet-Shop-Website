@@ -254,108 +254,63 @@ html {
  
  footer p {
     text-align: center;
+    bottom: 50px;
  }
 
- .contact{
-   padding: 2rem 0;
-   display: flex;
-   align-items: center;
-   flex-wrap: wrap;
-   gap: 3rem;
-   
+ /* contact section starts */
+
+ * {
+   box-sizing: border-box;
  }
-
- .contact .row{
-   display: flex;
-   flex-wrap: wrap;
-   gap: 1,5rem;
-   
-
- }
- .contact .row form{
-   display: flex;
-   justify-content: center;
-   flex:1 1 10rem;
-   padding: 2rem 3rem;
-   box-shadow: 0 .5rem 1.5rem  black;
-   border: .1rem solid black;
-   background: white;
-   border-radius: 5rem;
-
-
- }
- .contact .row image{
-   flex:1 1 40rem;
-   padding: 2rem 5%;
- }
-
- .contact .row image img{
-   width: 100%;
-   
- }
-
- .contact  .box{
-   padding: 1rem;
-   font-size: 1.7rem;
-   color:#333;
-   text-transform: none;
-   border:.1 solid black;
-   border-radius: .5rem;
-   margin: .7rem 0;
-   width: 50%;
-
- }
- .contact .row form .box:focus{
-   border-color: var(--pink);
-
- }
- .contact .row form textarea{
-   height: 15rem;
-   resize:none;
-   width: 5rem;
-   
-
- }
- .btn{
-   background-color: white;
-   border: none;
-   color: black;
-   padding: 5px 3px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
-   margin: 4px 2px;
-   cursor: pointer;
-}
-form{
-   flex: 1 1 40rem;
-   padding: 2rem 7%;
-
-   
-}
-.btn{
-   @include form-btn();
-}
-
-h3{
-   font-size: 3rem;
-   padding-bottom: 1rem;
-   color:black;
-}
-form .box{
-   width: 100%;
-   border-bottom: border;
-   border-width: .1rem;
-   font-size: 1,6rem;
-   text-transform: none;
-   color: black;
-   padding: 1rem 0;
-   margin: 1,5rem 0;
-
-}
-
-
-
-
  
+ /* Style inputs */
+ input[type=text], select, textarea {
+   width: 100%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   margin-top: 6px;
+   margin-bottom: 16px;
+   resize: vertical;
+ }
+ 
+ input[type=submit] {
+   background-color: #04AA6D;
+   color: white;
+   padding: 12px 20px;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ input[type=submit]:hover {
+   background-color: #45a049;
+ }
+ 
+ /* Style the container/contact section */
+ .container {
+   border-radius: 5px;
+   background-color: #f2f2f2;
+   padding: 10px;
+ }
+ 
+ /* Create two columns that float next to eachother */
+ .column {
+   float: left;
+   width: 50%;
+   margin-top: 6px;
+   padding: 20px;
+ }
+ 
+ /* Clear floats after the columns */
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+ 
+ /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 600px) {
+   .column, input[type=submit] {
+     width: 100%;
+     margin-top: 0;
+   }
+ }
