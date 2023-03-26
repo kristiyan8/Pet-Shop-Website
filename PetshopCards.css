@@ -60,3 +60,11 @@
     text-decoration: none;
     color: black;
 }
+
+
+main h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Sofia Sans', sans-serif;
+
+}

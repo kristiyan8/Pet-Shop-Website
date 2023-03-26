@@ -265,6 +265,10 @@ section img {
 
 footer p {
    text-align: center;
+   justify-content: center;
+   display: flex;
+   margin-top: 60px;
+   
 }
 
 /* slidshow starts */
