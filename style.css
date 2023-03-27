@@ -1,6 +1,7 @@
 
 html {
-   background-color: #ffcd6f;
+   background-color:#ffcd6f;
+   background-image: linear-gradient(to right, #b94453 );
    /* background-image: linear-gradient(to right, #a83377, #b1366a, #b63c5e, #b94453, #b94e49, #bb5643, #bc5e3e, #bc6639, #c06e35, #c37630, #c47e2b, #c58726 */
 }
 
@@ -138,7 +139,7 @@ header ul li:nth-child(5)
 header ul :hover {
    transition: background-color 300ms linear, color 300ms linear;
     cursor:pointer;
-    background-color: #ffcd6f;
+    background-color:#f5d9a5 ;
     color: #000;
 }
 
@@ -156,7 +157,7 @@ header ul :hover {
 
 main {   
    height: 100vh;
-   background-color: #ffcd6f;
+   background-color: #f5d9a5;
    margin: auto;
 }
 
@@ -169,6 +170,7 @@ main {
    justify-content: center;
    align-items: center;
    background-color: #845EC2;
+   position: sticky;
    /* Make the heading sticky... position: sticky; */
    
 }

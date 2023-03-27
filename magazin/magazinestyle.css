@@ -168,6 +168,7 @@ main {
    justify-content: center;
    align-items: center;
    background-color: #845EC2;
+   position: sticky;
    /* Make the heading sticky... position: sticky; */
    
 }
