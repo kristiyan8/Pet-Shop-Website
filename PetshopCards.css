@@ -53,7 +53,7 @@
 
 .content__title:hover {
     transition: background-color 600ms;
-    background-color: #ffcd6f;
+    background-color:#ffcd6f;
 }
 
 .content__title a {

@@ -1,7 +1,8 @@
 
 html {
-   background-color:#ffcd6f;
+   background-color:#e7bb67;
    background-image: linear-gradient(to right, #b94453 );
+   
    /* background-image: linear-gradient(to right, #a83377, #b1366a, #b63c5e, #b94453, #b94e49, #bb5643, #bc5e3e, #bc6639, #c06e35, #c37630, #c47e2b, #c58726 */
 }
 
@@ -153,13 +154,18 @@ header ul :hover {
 
 
 
+
+
+
 /* This is the main part from now on:  */
 
 main {   
    height: 100vh;
-   background-color: #f5d9a5;
+   background-color:#fddda2;
    margin: auto;
+   background: #fddda2;
 }
+
 
 .firstUl {
    width: 1600px;
@@ -189,7 +195,7 @@ main {
 
 .firstUl :hover {
    transition: background-color 600ms linear;
-   background-color: #ffcd6f;
+   background-color: #fddda2;
 }
 
 main h1 {
