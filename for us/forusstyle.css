@@ -296,4 +296,7 @@ section img {
    text-align: center;  
 
 }
+#head-soc li#fb a {background-position: -96px 0px;}
+#head-soc li#fb a:hover {background-position: -96px -32px;}
+
 
