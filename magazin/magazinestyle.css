@@ -603,9 +603,9 @@ footer p {
 
  .content2 {
    position: relative;
+   justify-content: center;
    left: 685px;
    font-size: 25px;
-   margin-top: 60px;
    font-family: sans-serif;
  }
  .column2 .amount2{
@@ -638,9 +638,9 @@ footer p {
 
  .content3 {
    position: relative;
+   justify-content: center;
    left: 650px;
    font-size: 25px;
-   margin-top: 60px;
    font-family: sans-serif;
  }
  .column3 .amount3{
@@ -670,9 +670,9 @@ footer p {
 
  .content4 {
    position: relative;
+   justify-content: center;
    left: 650px;
    font-size: 25px;
-   margin-top: 60px;
    font-family: sans-serif;
  }
  
@@ -687,4 +687,39 @@ footer p {
 .column4 img{
    height: 80%;
 }
+img {
+   width: 100%;
+   height: auto;
+   margin: auto;
+ }
  
+ 
+@media screen and (max-width: 50rem) {
+   .column2 {
+     width: 100%;
+   }
+ }
+ .amount2{
+   text-align: center;
+ }
+ @media screen and (max-width: 800px) {
+   .column3 {
+     width: 100%;
+   }
+ }
+ @media screen and (min-width: 400px) {
+   .column3 {
+     width: 100%;
+   }
+ }
+ .amount3 {
+   text-align: center;
+ }
+ @media screen and (max-width: 500px) {
+   .column4 {
+     width: 100%;
+   }
+ }
+ .amount4 {
+   text-align: center;
+ }
