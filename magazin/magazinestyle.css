@@ -618,6 +618,7 @@ footer p {
 
  .column2 img{
    height: 80%;
+   
  }
 
 
@@ -626,6 +627,7 @@ footer p {
  .row3{
    display: flex;
    justify-content: center;
+   
  }
  .row3 .column3{
    display: flex;
@@ -653,6 +655,7 @@ footer p {
 
  .column3 img{
    height: 80%;
+   
  }
 
 
@@ -686,6 +689,7 @@ footer p {
  }
 .column4 img{
    height: 80%;
+   
 }
 img {
    width: 100%;
