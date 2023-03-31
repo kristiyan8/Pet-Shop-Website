@@ -2,7 +2,7 @@ html {
     background-color: #ffcd6f;
     /* background-image: linear-gradient(to right, #a83377, #b1366a, #b63c5e, #b94453, #b94e49, #bb5643, #bc5e3e, #bc6639, #c06e35, #c37630, #c47e2b, #c58726 */
  }
- @media screen and (max-width: 500px) {
+ @media screen and (max-width: 1500px) {
    
    .header a {
       float: none;
@@ -262,6 +262,27 @@ html {
  .secondList p {
     cursor: pointer;
  }
+
+ 
+ 
+ @media only screen and (min-width: 768px) {
+   /* For desktop: */
+   .buttons-1 {width: 8.33%;}
+   .buttons-2 {width: 16.66%;}
+   .buttons-3 {width: 25%;}
+   .buttons-4 {width: 33.33%;}
+   .buttons-5 {width: 41.66%;}
+   .buttons-6 {width: 50%;}
+   .buttons-7 {width: 58.33%;}
+   .buttons-8 {width: 66.66%;}
+   .buttons-9 {width: 75%;}
+   .buttons-10 {width: 83.33%;}
+   .buttons-11 {width: 91.66%;}
+   .buttons-12 {width: 100%;}
+ }
+      
+ 
+  
  
  /* Footer part from now on:  */
  
