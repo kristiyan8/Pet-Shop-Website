@@ -368,3 +368,30 @@ html {
      margin-top: 0;
    }
  }
+
+ main {
+   width: 80%;
+   height: 70%;
+   }
+
+.container {
+ background-color: #66b3e2;
+}
+
+#socialImg {
+   height: 250px;
+   width: 250px;
+   position: relative;
+   top: 525px;
+   left: 1000px;
+}
+
+
+.socialLinks {
+   display: flex;
+   flex-direction: row;
+   gap: 15px;
+   position: relative;
+   bottom: 180px;
+   left: 950px;
+}
