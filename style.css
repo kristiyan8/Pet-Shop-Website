@@ -171,6 +171,7 @@ header ul :hover {
       color:  #ffcd6f;
    }
 }
+/*search bar*/
 * {box-sizing: border-box;}
 
 body {
@@ -194,7 +195,7 @@ body {
   float: right;
   padding: 6px 10px;
   margin-top: 8px;
-  margin-right: 16px;
+  margin-left: 256px;
   background: #ddd;
   font-size: 17px;
   border: none;
