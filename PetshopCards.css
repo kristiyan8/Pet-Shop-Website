@@ -98,3 +98,7 @@ main h2{
        opacity: 1;
     }
  }
+ .amount {
+    position: relative;
+    bottom: -100px;
+ }

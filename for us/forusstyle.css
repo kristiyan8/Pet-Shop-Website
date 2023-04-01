@@ -264,8 +264,12 @@ section img {
  
  footer p {
     text-align: center;
+    font-weight: 300;
  }
-
+footer p:last-child {
+   padding-top: -10px;
+   padding-bottom: 20px;
+}
  
  section image {
    margin-top: 10px;
@@ -299,4 +303,25 @@ section img {
 #head-soc li#fb a {background-position: -96px 0px;}
 #head-soc li#fb a:hover {background-position: -96px -32px;}
 
+.snimka img{
+   width: 1400px;
+   height: 700px;
+   border-radius: 10px;
+}
+.snimka {
+   position: relative;
+   right: 500px;
+   margin-top: -10px;
+}
 
+.content {
+   margin-left: 3%;
+}
+.content h2 {
+font-size: 30px;
+}
+.content p {
+   font-size: 20px;
+   font-weight: 300;
+   line-height: 2;
+}
