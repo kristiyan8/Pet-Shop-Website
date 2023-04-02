@@ -83,22 +83,14 @@ main h2{
  .col-12 {width: 100%;}
  
   }
-  @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="slideshow-containter"] {
-      width: 100%;
-    }
-  }
-
-  @keyframes fade {
-    from {
-       opacity: 0.4;
-    }
-    to {
-       opacity: 1;
-    }
- }
- .amount {
+ 
+ .amount p{
     position: relative;
-    bottom: -100px;
+    bottom: 250px;
+    left: 60px;
+    display: flex;
+    
+    
+
+
  }
