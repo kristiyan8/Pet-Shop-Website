@@ -223,12 +223,6 @@ body {
   }
 }
 
-
-
-
-
-
-
 /* This is the main part from now on:  */
 
 main {   
@@ -276,7 +270,10 @@ main h1 {
    color:black;
    font-size: 60px;
    text-align: center;
-
+}
+h1 a {
+   text-decoration: none;
+   color: whitesmoke
 }
 
 main p {
@@ -518,7 +515,7 @@ img {
 .search-container {
    position: relative;
    top: 18px;
-   left: 150px;
+   left: 120px;
    width: 150px;
    cursor:text;
 
@@ -538,6 +535,11 @@ img {
    cursor:auto;
 }
 
-.slideshow-container .mySlidesfade {
 
+
+#forUs {
+   color: #4f3874;
+}
+#forUs:hover {
+   color: black;
 }
