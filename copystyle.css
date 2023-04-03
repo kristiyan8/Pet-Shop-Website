@@ -1,0 +1,224 @@
+html {
+    background-color:#e7bb67;
+    background-image: linear-gradient(to right, #b94453 );
+    
+    /* background-image: linear-gradient(to right, #a83377, #b1366a, #b63c5e, #b94453, #b94e49, #bb5643, #bc5e3e, #bc6639, #c06e35, #c37630, #c47e2b, #c58726 */
+ }
+ 
+ header {
+    width: 1600px;
+   height: 90px;
+    margin-top: 12px;
+    display: flex;
+   justify-content: space-between;
+   padding: 0px 25px;
+   align-items: center;
+   background-color: #00C9A7;
+   border-radius: 20px;
+ }
+ 
+ #mainHeader {
+    color: #e5e5c9;
+    font-family: 'Permanent Marker', cursive;
+    height: 30px;
+    position:absolute;
+    left: 740px;
+    top: 15px;
+ }
+ .phoneContact { 
+    width: 200px;
+    height: 65px;
+    border-radius: 10px;
+    font-size: 17px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00C9A7;
+    color: black;
+  }
+ 
+ .phoneContact:hover {
+    transition: background-color 600ms ease-in-out, color 600ms ease-in-out;
+    background-color:#ffcd6f;
+    color:black;
+    cursor: pointer;
+ }
+ 
+ 
+ header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ header ul li {
+    list-style: none;
+    background-color: #ffcd6f;
+    margin-left: 80px;
+    margin-right: 80px;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ header ul li a {
+    font-family: 'Sofia Sans', sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 8px;
+    padding: 4px;
+ }
+ 
+ header ul li:nth-child(1)
+ {
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 4px;
+    background-color: #00C9A7;
+    border: none;
+    position: relative;
+    left: -6%;
+ }
+ 
+ header ul li:nth-child(2)
+ {
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 4px;
+    background-color: #00C9A7;
+    border: none;
+    position: relative;
+    left: -6%;
+ }
+ 
+ header ul li:nth-child(3)
+ {
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 4px;
+    background-color: #00C9A7;
+    border: none;
+    position: relative;
+    left: -6%;
+ }
+ 
+ header ul li:nth-child(4)
+ {
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 4px;
+    background-color: #00C9A7;
+    border: none;
+    position: relative;
+    left: 9%;
+ }
+ 
+ header ul li:nth-child(5)
+ {
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 4px;
+    background-color: #00C9A7;
+    border: none;
+    position: relative;
+    left: 10%;
+ }
+ 
+ header ul :hover {
+    transition: background-color 300ms linear, color 300ms linear;
+     cursor:pointer;
+     background-color:#f5d9a5 ;
+     color: #000;
+ }
+ 
+ .display-container{
+    display: flex;
+    justify-content:center;
+     align-items: center;
+     margin:50px auto;
+    
+ }
+ 
+ @media only screen and (max-widht: 700px){
+    header ul{
+       width: 100%;
+       background: #ffcd6f;
+       position: absolute;
+       top: 75px;
+       right:0;
+       z-index: 2;
+    }
+    header ul li{
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 10px;
+ 
+    }
+    header ul li a{
+       color:  #ffcd6f;
+    }
+ }
+ /*search bar*/
+ * {box-sizing: border-box;}
+ 
+ body {
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ 
+ .buttons .search-container {
+   float: right;
+ }
+ 
+ .buttons input[type=text] {
+   padding: 6px;
+   margin-top: 8px;
+   font-size: 17px;
+   border: none;
+ }
+ 
+ .buttons .search-container button {
+   float: right;
+   padding: 6px 10px;
+   margin-top: 8px;
+   margin-left: 256px;
+   background: #ddd;
+   font-size: 17px;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ .buttons .search-container button:hover {
+   background: #ccc;
+ }
+ 
+ @media screen and (max-width: 600px) {
+   .buttons .search-container {
+     float: none;
+   }
+   .buttons a, .buttons input[type=text], .buttons .search-container button {
+     float: none;
+     display: block;
+     text-align: left;
+     width: 100%;
+     margin: 0;
+     padding: 14px;
+   }
+   .buttons input[type=text] {
+     border: 1px solid #ccc;  
+   }
+ }
+ 
