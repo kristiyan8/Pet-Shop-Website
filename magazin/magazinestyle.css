@@ -712,12 +712,12 @@ img {
  .amount2{
    text-align: center;
  }
- @media screen and (max-width: 800px) {
+ @media screen and (max-width: 80rem) {
    .column3 {
      width: 100%;
    }
  }
- @media screen and (min-width: 400px) {
+ @media screen and (min-width: 40rem) {
    .column3 {
      width: 100%;
    }
@@ -725,7 +725,7 @@ img {
  .amount3 {
    text-align: center;
  }
- @media screen and (max-width: 500px) {
+ @media screen and (max-width: 50rem) {
    .column4 {
      width: 100%;
    }
