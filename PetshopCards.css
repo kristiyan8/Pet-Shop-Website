@@ -11,7 +11,7 @@
     border: 1.5px solid black;
     border-radius: 25px;
     overflow: hidden;
-    padding: 12px;
+    padding: 28px;
     max-width: 600px;
     max-height: 470px;
     margin-left: 35px;
@@ -87,12 +87,8 @@ main h2{
  .amount {
     position: relative;
     bottom: 50px;
-    left: -80px;
     display: flex;
-    
-
-    
-    
+    right: 500px;
     
 
 
