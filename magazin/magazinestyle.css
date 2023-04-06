@@ -817,3 +817,18 @@ img {
    top: 150px;
    left: -125px;
 }
+.column2 h3 {
+   font-family: 'Roboto Slab', serif;
+   font-weight: 400;
+   font-size: 18px;
+}
+.column3 h3 {
+   font-family: 'Roboto Slab', serif;
+   font-weight: 400;
+   font-size: 18px;
+}
+.column4 h3 {
+   font-family: 'Roboto Slab', serif;
+   font-weight: 400;
+   font-size: 18px;
+}
