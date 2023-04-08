@@ -9,7 +9,7 @@
     display: inline-block;
     margin-top: 20px;
     border: 1.5px solid black;
-    border-radius: 25px;
+    border-radius: 50px;
     overflow: hidden;
     padding: 28px;
     max-width: 600px;
@@ -88,8 +88,7 @@ main h2{
     position: relative;
     bottom: 50px;
     display: flex;
-    right: 500px;
-    
+    left: 80px;
 
 
  }
