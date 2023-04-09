@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;800&display=swap');
 html {
    background-color: #ffcd6f;
    /* background-image: linear-gradient(to right, #a83377, #b1366a, #b63c5e, #b94453, #b94e49, #bb5643, #bc5e3e, #bc6639, #c06e35, #c37630, #c47e2b, #c58726 */
@@ -582,7 +583,12 @@ footer p {
    justify-content: center;
    font-size: 25px;
    margin-top: 60px;
-   font-family: sans-serif;
+   font-family: 'Roboto Slab', serif;
+ }
+ .column h3 {
+   font-family: 'Roboto Slab', serif;
+   font-weight: 400;
+   font-size: 18px;
  }
  .column img {
    height: 80%;
@@ -712,12 +718,12 @@ img {
  .amount2{
    text-align: center;
  }
- @media screen and (max-width: 800px) {
+ @media screen and (max-width: 80rem) {
    .column3 {
      width: 100%;
    }
  }
- @media screen and (min-width: 400px) {
+ @media screen and (min-width: 40rem) {
    .column3 {
      width: 100%;
    }
@@ -725,7 +731,7 @@ img {
  .amount3 {
    text-align: center;
  }
- @media screen and (max-width: 500px) {
+ @media screen and (max-width: 50rem) {
    .column4 {
      width: 100%;
    }
@@ -804,4 +810,48 @@ img {
    position: relative;
    left: 780px;
 }
+#cart {
+   height: 15%;
+   width: 15%;
+   position: relative;
+   top: 150px;
+   left: -125px;
+}
+.column2 h3 {
+   font-family: 'Roboto Slab', serif;
+   font-weight: 400;
+   font-size: 18px;
+}
+.column3 h3 {
+   font-family: 'Roboto Slab', serif;
+   font-weight: 400;
+   font-size: 18px;
+}
+.column4 h3 {
+   font-family: 'Roboto Slab', serif;
+   font-weight: 400;
+   font-size: 18px;
+}
+h2{
+   
+   display: flex;
+   justify-content: center;
+ 
+   
+   
+}
 
+footer p{
+   text-align: center;
+   justify-content: center;
+   display: flex;
+   margin-top: 60px;
+   position: relative;
+   top: 740px;
+   font-weight:900;
+
+}
+footer p:last-child {
+   padding-top: -50px;
+   padding-bottom: 50px;
+}

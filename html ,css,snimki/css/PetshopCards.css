@@ -4,6 +4,7 @@
     font-family: 'Sofia Sans', sans-serif;
 }
 
+
 .product {
     display: inline-block;
     margin-top: 20px;
@@ -18,7 +19,7 @@
 }
 
 .product:hover {
-    transition: background-color 600ms;
+    transition: background-color 600ms ;
     background-color: #00C9A7;
     cursor: pointer;
     color: black;
@@ -60,13 +61,13 @@
     color: black;
 }
 
+
 main h2{
     text-align: center;
     font-size: 30px;
     font-family: 'Sofia Sans', sans-serif;
 
 }
-
 @media only screen and (min-width: 600px){
     .col-1 {width: 8.33%;}
  .col-2 {width: 16.66%;}
@@ -83,7 +84,3 @@ main h2{
  
   }
  
- .product .content .amount {
-    
-
- }
