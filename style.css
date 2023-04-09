@@ -346,13 +346,13 @@ footer p{
    display: flex;
    margin-top: 60px;
    position: relative;
-   top: 840px;
+   top: 740px;
+   font-weight:900;
 }
 footer p:last-child {
-   padding-top: -10px;
+   padding-top: -50px;
    padding-bottom: 50px;
 }
-
 /* slidshow starts */
 
 * {box-sizing: border-box}

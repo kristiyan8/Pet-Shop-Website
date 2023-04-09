@@ -286,10 +286,20 @@ html {
  
  /* Footer part from now on:  */
  
- footer p {
-    text-align: center;
-    bottom: 50px;
- }
+ footer p{
+   text-align: center;
+   justify-content: center;
+   display: flex;
+   margin-top: 60px;
+   position: relative;
+   top: 740px;
+   font-weight:900;
+
+}
+footer p:last-child {
+   padding-top: -50px;
+   padding-bottom: 50px;
+}
 
  /* contact section starts */
 

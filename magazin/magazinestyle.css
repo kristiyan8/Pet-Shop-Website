@@ -840,3 +840,18 @@ h2{
    
    
 }
+
+footer p{
+   text-align: center;
+   justify-content: center;
+   display: flex;
+   margin-top: 60px;
+   position: relative;
+   top: 740px;
+   font-weight:900;
+
+}
+footer p:last-child {
+   padding-top: -50px;
+   padding-bottom: 50px;
+}

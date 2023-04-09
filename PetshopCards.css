@@ -9,10 +9,10 @@
     display: inline-block;
     margin-top: 20px;
     border: 1.5px solid black;
-    border-radius: 50px;
+    border-radius: 25px;
     overflow: hidden;
-    padding: 28px;
-    max-width: 800px;
+    padding: 12px;
+    max-width: 600px;
     max-height: 470px;
     margin-left: 35px;
     box-shadow: 1px 0.8px 0.2px 0px;
@@ -84,11 +84,3 @@ main h2{
  
   }
  
- .product .amount {
-    position: relative;
-    bottom: 50px;
-    display: flex;
-    left: 80px;
-
-
- }
