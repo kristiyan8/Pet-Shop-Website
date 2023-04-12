@@ -564,3 +564,16 @@ img {
   
    
 }
+@media screen and (max-width: 700px) {
+   footer{
+      font-size: 40px;
+   }
+   
+}
+
+@media screen and (min-width: 450px) {
+   footer{
+      font-size: 20px;
+   }
+   
+}
