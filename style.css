@@ -342,18 +342,32 @@ section img {
 
 footer p{
    text-align: center;
-   justify-content: center;
-   display: flex;
-   margin-top: 60px;
-   position: relative;
-   top: 740px;
-   font-weight:900;
-}
-footer p:last-child {
-   padding-top: -50px;
+   font-weight: 900;
+ }
+ 
+ /* Add padding to the last paragraph */
+ footer p:last-child {
+   padding-top: 50px;
    padding-bottom: 50px;
-}
-
+ }
+ 
+ /* Make the footer responsive */
+ @media screen and (max-width: 768px) {
+   footer {
+     position: relative;
+     bottom: 0;
+   }
+   
+   footer p {
+     margin-top: 30px;
+     font-size: 1rem;
+   }
+   
+   footer p:last-child {
+     padding-top: 30px;
+     padding-bottom: 30px;
+   }
+ }
 /* slidshow starts */
 
 * {box-sizing: border-box}
@@ -563,17 +577,5 @@ img {
       .col-11 {width: 91.66%;}
       .col-12 {width: 100%;}
   
-   
-}
-@media screen and (max-width: 768px) {
-   footer p{
-      display: block;
-   }
-}   
-
-@media screen and (min-width: 300px) {
-   footer p{
-      display: block;
-   }
    
 }
