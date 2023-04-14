@@ -522,11 +522,34 @@ section img {
 
 /* Footer part from now on:  */
 
-footer p {
+footer p{
    text-align: center;
+   font-weight: 900;
+ }
+ 
+ /* Add padding to the last paragraph */
+ footer p:last-child {
+   padding-top: 50px;
+   padding-bottom: 50px;
+ }
+ 
+ /* Make the footer responsive */
+ @media screen and (max-width: 768px) {
+   footer {
+     position: relative;
+     bottom: 0;
+   }
    
-}
-
+   footer p {
+     margin-top: 30px;
+     font-size: 1rem;
+   }
+   
+   footer p:last-child {
+     padding-top: 30px;
+     padding-bottom: 30px;
+   }
+ }
 * {
    box-sizing: border-box;
  }
