@@ -7,8 +7,7 @@ html {
 }
 
 header {
-   width: 1600px;
-  height: 90px;
+   height: 90px;
    margin-top: 12px;
    display: flex;
   justify-content: space-between;
@@ -22,12 +21,13 @@ header {
    color: #e5e5c9;
    font-family: 'Permanent Marker', cursive;
    height: 30px;
-   position:absolute;
-   left: 740px;
-   top: 15px;
+   position:relative;
+   left: 50%;
+   transform: translateX(-50%);
 }
+
 .phoneContact { 
-   width: 200px;
+   width: 25%;
    height: 65px;
    border-radius: 10px;
    font-size: 17px;
@@ -46,24 +46,24 @@ header {
    cursor: pointer;
 }
 
-
 header ul {
    display: flex;
    justify-content: center;
    align-items: center;
-   
 }
+
 header ul li {
    list-style: none;
    background-color: #ffcd6f;
-   margin-left: 80px;
-   margin-right: 80px;
+   margin-left: 2%;
+   margin-right: 2%;
    cursor: pointer;
    border: none;
    display: flex;
    justify-content: center;
    align-items: center;
 }
+
 header ul li a {
    font-family: 'Sofia Sans', sans-serif;
    text-decoration: none;
@@ -72,8 +72,11 @@ header ul li a {
    padding: 4px;
 }
 
-header ul li:nth-child(1)
-{
+header ul li:nth-child(1), 
+header ul li:nth-child(2), 
+header ul li:nth-child(3), 
+header ul li:nth-child(4),
+header ul li:nth-child(5) {
    font-family: 'Sofia Sans', sans-serif;
    font-weight: bolder;
    cursor: pointer;
@@ -82,95 +85,32 @@ header ul li:nth-child(1)
    background-color: #00C9A7;
    border: none;
    position: relative;
-   left: -6%;
 }
 
-header ul li:nth-child(2)
-{
-   font-family: 'Sofia Sans', sans-serif;
-   font-weight: bolder;
-   cursor: pointer;
-   border-radius: 8px;
-   padding: 4px;
-   background-color: #00C9A7;
-   border: none;
-   position: relative;
-   left: -6%;
+header ul li:nth-child(1) {
+   left: -20%;
 }
 
-header ul li:nth-child(3)
-{
-   font-family: 'Sofia Sans', sans-serif;
-   font-weight: bolder;
-   cursor: pointer;
-   border-radius: 8px;
-   padding: 4px;
-   background-color: #00C9A7;
-   border: none;
-   position: relative;
-   left: -6%;
+header ul li:nth-child(2) {
+   left: -20%;
 }
 
-header ul li:nth-child(4)
-{
-   font-family: 'Sofia Sans', sans-serif;
-   font-weight: bolder;
-   cursor: pointer;
-   border-radius: 8px;
-   padding: 4px;
-   background-color: #00C9A7;
-   border: none;
-   position: relative;
-   left: 9%;
+header ul li:nth-child(3) {
+   left: -20%;
 }
 
-header ul li:nth-child(5)
-{
-   font-family: 'Sofia Sans', sans-serif;
-   font-weight: bolder;
-   cursor: pointer;
-   border-radius: 8px;
-   padding: 4px;
-   background-color: #00C9A7;
-   border: none;
-   position: relative;
-   left: 10%;
+header ul li:nth-child(4) {
+   right: -10%;
 }
 
-header ul :hover {
-   transition: background-color 300ms linear, color 300ms linear;
-    cursor:pointer;
-    background-color:#f5d9a5 ;
-    color: #000;
+header ul li:nth-child(5) {
+   right: -10%;
 }
 
-.display-container{
-   display: flex;
-   justify-content:center;
-    align-items: center;
-    margin:50px auto;
-   
+header ul li:hover {
+   transition: background-color 300ms
 }
 
-@media only screen and (max-widht: 700px){
-   header ul{
-      width: 100%;
-      background: #ffcd6f;
-      position: absolute;
-      top: 75px;
-      right:0;
-      z-index: 2;
-   }
-   header ul li{
-     display: block;
-     margin-top: 10px;
-     margin-bottom: 10px;
-
-   }
-   header ul li a{
-      color:  #ffcd6f;
-   }
-}
 /*search bar*/
 * {box-sizing: border-box;}
 
@@ -234,7 +174,7 @@ main {
 
 
 .firstUl {
-   width: 1600px;
+   
    height: 30px;
    border-radius: 20px;
    margin-top: 0;
