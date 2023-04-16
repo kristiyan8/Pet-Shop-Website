@@ -7,8 +7,7 @@ html {
 }
 
 header {
-   width: 1600px;
-  height: 90px;
+   height: 90px;
    margin-top: 12px;
    display: flex;
   justify-content: space-between;
@@ -22,12 +21,13 @@ header {
    color: #e5e5c9;
    font-family: 'Permanent Marker', cursive;
    height: 30px;
-   position:absolute;
-   left: 740px;
-   top: 15px;
+   position:relative;
+   left: 50%;
+   transform: translateX(-50%);
 }
+
 .phoneContact { 
-   width: 200px;
+   width: 25%;
    height: 65px;
    border-radius: 10px;
    font-size: 17px;
@@ -46,24 +46,24 @@ header {
    cursor: pointer;
 }
 
-
 header ul {
    display: flex;
    justify-content: center;
    align-items: center;
-   
 }
+
 header ul li {
    list-style: none;
    background-color: #ffcd6f;
-   margin-left: 80px;
-   margin-right: 80px;
+   margin-left: 2%;
+   margin-right: 2%;
    cursor: pointer;
    border: none;
    display: flex;
    justify-content: center;
    align-items: center;
 }
+
 header ul li a {
    font-family: 'Sofia Sans', sans-serif;
    text-decoration: none;
@@ -72,8 +72,11 @@ header ul li a {
    padding: 4px;
 }
 
-header ul li:nth-child(1)
-{
+header ul li:nth-child(1), 
+header ul li:nth-child(2), 
+header ul li:nth-child(3), 
+header ul li:nth-child(4),
+header ul li:nth-child(5) {
    font-family: 'Sofia Sans', sans-serif;
    font-weight: bolder;
    cursor: pointer;
@@ -82,95 +85,32 @@ header ul li:nth-child(1)
    background-color: #00C9A7;
    border: none;
    position: relative;
-   left: -6%;
 }
 
-header ul li:nth-child(2)
-{
-   font-family: 'Sofia Sans', sans-serif;
-   font-weight: bolder;
-   cursor: pointer;
-   border-radius: 8px;
-   padding: 4px;
-   background-color: #00C9A7;
-   border: none;
-   position: relative;
-   left: -6%;
+header ul li:nth-child(1) {
+   left: -20%;
 }
 
-header ul li:nth-child(3)
-{
-   font-family: 'Sofia Sans', sans-serif;
-   font-weight: bolder;
-   cursor: pointer;
-   border-radius: 8px;
-   padding: 4px;
-   background-color: #00C9A7;
-   border: none;
-   position: relative;
-   left: -6%;
+header ul li:nth-child(2) {
+   left: -20%;
 }
 
-header ul li:nth-child(4)
-{
-   font-family: 'Sofia Sans', sans-serif;
-   font-weight: bolder;
-   cursor: pointer;
-   border-radius: 8px;
-   padding: 4px;
-   background-color: #00C9A7;
-   border: none;
-   position: relative;
-   left: 9%;
+header ul li:nth-child(3) {
+   left: -20%;
 }
 
-header ul li:nth-child(5)
-{
-   font-family: 'Sofia Sans', sans-serif;
-   font-weight: bolder;
-   cursor: pointer;
-   border-radius: 8px;
-   padding: 4px;
-   background-color: #00C9A7;
-   border: none;
-   position: relative;
-   left: 10%;
+header ul li:nth-child(4) {
+   right: -10%;
 }
 
-header ul :hover {
-   transition: background-color 300ms linear, color 300ms linear;
-    cursor:pointer;
-    background-color:#f5d9a5 ;
-    color: #000;
+header ul li:nth-child(5) {
+   right: -10%;
 }
 
-.display-container{
-   display: flex;
-   justify-content:center;
-    align-items: center;
-    margin:50px auto;
-   
+header ul li:hover {
+   transition: background-color 300ms
 }
 
-@media only screen and (max-widht: 700px){
-   header ul{
-      width: 100%;
-      background: #ffcd6f;
-      position: absolute;
-      top: 75px;
-      right:0;
-      z-index: 2;
-   }
-   header ul li{
-     display: block;
-     margin-top: 10px;
-     margin-bottom: 10px;
-
-   }
-   header ul li a{
-      color:  #ffcd6f;
-   }
-}
 /*search bar*/
 * {box-sizing: border-box;}
 
@@ -234,7 +174,7 @@ main {
 
 
 .firstUl {
-   width: 1600px;
+   
    height: 30px;
    border-radius: 20px;
    margin-top: 0;
@@ -342,17 +282,33 @@ section img {
 
 footer p{
    text-align: center;
-   justify-content: center;
-   display: flex;
-   margin-top: 60px;
-   position: relative;
-   top: 740px;
-   font-weight:900;
-}
-footer p:last-child {
-   padding-top: -50px;
+   font-weight: 900;
+   
+ }
+ 
+ /* Add padding to the last paragraph */
+ footer p:last-child {
+   padding-top: 50px;
    padding-bottom: 50px;
-}
+ }
+ 
+ /* Make the footer responsive */
+ @media screen and (max-width: 768px) {
+   footer {
+      position: absolute;
+     bottom: 0;
+   }
+   
+   footer p {
+     margin-top: 350px;
+     font-size: 1rem;
+   }
+   
+   footer p:last-child {
+     padding-top: 530px;
+     padding-bottom: 30px;
+   }
+ }
 /* slidshow starts */
 
 * {box-sizing: border-box}
@@ -543,6 +499,57 @@ img {
 #forUs:hover {
    color: black;
 }
+[class*="header"] {
+   width: 100%;
+ }
 
-
- 
+@media screen and (max-width: 768px ) {
+   #mainHeader
+      .col-1 {width: 8.33%;}
+      .col-2 {width: 16.66%;}
+      .col-3 {width: 25%;}
+      .col-4 {width: 33.33%;}
+      .col-5 {width: 41.66%;}
+      .col-6 {width: 50%;}
+      .col-7 {width: 58.33%;}
+      .col-8 {width: 66.66%;}
+      .col-9 {width: 75%;}
+      .col-10 {width: 83.33%;}
+      .col-11 {width: 91.66%;}
+      .col-12 {width: 100%;}
+  
+   
+}
+@media screen and (max-width: 900px) {
+   .header ul  {
+     float: none;
+     display: block;
+     text-align: left;
+   }
+   
+   .header-left {
+     float: none;
+   }
+ }
+@media screen and (max-width: 900px) {
+   .header ul li a {
+     float: none;
+     display: block;
+     text-align: left;
+   }
+   
+   .header-left {
+     float: none;
+   }
+ }
+ @media screen and (min-width: 600px) {
+   .header ul li a {
+     float: none;
+     display: block;
+     text-align: left;
+   }
+   
+   .header-right{
+     float: none;
+   }
+ }

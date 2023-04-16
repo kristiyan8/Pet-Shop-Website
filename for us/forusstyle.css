@@ -264,19 +264,33 @@ section img {
  
  footer p{
    text-align: center;
-   justify-content: center;
-   display: flex;
-   margin-top: 60px;
-   position: relative;
-   top: 740px;
-   font-weight:900;
-
-}
-footer p:last-child {
-   padding-top: -50px;
-   padding-bottom: 50px;
-}
+   font-weight: 900;
+   
+ }
  
+ /* Add padding to the last paragraph */
+ footer p:last-child {
+   padding-top: 50px;
+   padding-bottom: 50px;
+ }
+ 
+ /* Make the footer responsive */
+ @media screen and (max-width: 768px) {
+   footer {
+      position: absolute;
+     bottom: 0;
+   }
+   
+   footer p {
+     margin-top: 350px;
+     font-size: 1rem;
+   }
+   
+   footer p:last-child {
+     padding-top: 530px;
+     padding-bottom: 30px;
+   }
+ }
  section image {
    margin-top: 10px;
    position: relative;
@@ -330,4 +344,27 @@ font-size: 30px;
    font-size: 20px;
    font-weight: 300;
    line-height: 2;
+}
+body {
+	font-family: Arial, sans-serif;
+	
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 550px;
+}
+
+
+h2 {
+	margin-top: 30px;
+   margin-left: 250px;
+	color: #444;
+}
+
+.answer {
+	margin-bottom: 30px;
+   margin-left: 250px;
+	font-size: 16px;
+	line-height: 1.5;
 }
