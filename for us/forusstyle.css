@@ -360,7 +360,7 @@ h1 {
 h2 {
 	margin-top: 30px;
    margin-left: 250px;
-	color: #444;
+	color: black;
 }
 
 .answer {
@@ -369,3 +369,23 @@ h2 {
 	font-size: 16px;
 	line-height: 1.5;
 }
+@media (max-width: 767px) {
+   h1 {
+     margin-bottom: 100px;
+   }
+   
+   h2, .answer {
+     margin-left: 0;
+   }
+ }
+ 
+ /* Styles for screens larger than 768px (e.g., tablets, desktops) */
+ @media (min-width: 768px) {
+   h1 {
+     margin-bottom: 250px;
+   }
+   
+   h2, .answer {
+     margin-left: 250px;
+   }
+ }
