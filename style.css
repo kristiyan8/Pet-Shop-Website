@@ -553,3 +553,31 @@ img {
      float: none;
    }
  }
+ main h2 {
+   position: relative;
+   right: 100px;
+   bottom: 160px;
+ }
+.greetingDescription {
+   position: relative;
+   bottom: 150px;
+}
+#promotions {
+   position: relative;
+   bottom: 210px;
+}
+#learnMore {
+   position: relative;
+   bottom: 115px;
+}
+
+.product {
+   position: relative;
+   bottom: 150px;
+}
+
+footer {
+   position: relative;
+   top: -70px;
+   padding-bottom: -200px;
+}

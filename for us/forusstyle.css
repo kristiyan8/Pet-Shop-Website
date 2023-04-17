@@ -354,7 +354,6 @@ body {
 	left: 250px;
    position: relative;
    padding-bottom: 250px;
-   
 }
 
 
@@ -389,4 +388,17 @@ h2 {
    h2, .answer {
      margin-left: 250px;
    }
+ }
+
+ #commonQuestions {
+   text-align: center;
+   font-size: 35px;
+   margin-top: -5px;
+ }
+
+ .questionsContainer {
+   margin-top: -180px;
+   text-align: center;
+   position: relative;
+   right: 120px;
  }
