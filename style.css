@@ -305,7 +305,7 @@ footer p{
    }
    
    footer p:last-child {
-     padding-top: 530px;
+     padding-top: 30px;
      padding-bottom: 30px;
    }
  }
