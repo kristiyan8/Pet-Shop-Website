@@ -271,7 +271,7 @@ section img {
  /* Add padding to the last paragraph */
  footer p:last-child {
    padding-top: 50px;
-   padding-bottom: 50px;
+   padding-bottom: 250px;
  }
  
  /* Make the footer responsive */
@@ -350,10 +350,11 @@ body {
 	
 }
 
-h1 {
-	text-align: center;
-	margin-bottom: 250px;
+.questions h1 {
+	left: 250px;
    position: relative;
+   padding-bottom: 250px;
+   
 }
 
 
