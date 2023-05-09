@@ -1,0 +1,913 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;800&display=swap');
+html {
+   background-color: #ffcd6f;
+   /* background-image: linear-gradient(to right, #a83377, #b1366a, #b63c5e, #b94453, #b94e49, #bb5643, #bc5e3e, #bc6639, #c06e35, #c37630, #c47e2b, #c58726 */
+}
+
+header {
+   width: 1600px;
+  height: 90px;
+   margin-top: 12px;
+   display: flex;
+  justify-content: space-between;
+  padding: 0px 25px;
+  align-items: center;
+  background-color: #00C9A7;
+  border-radius: 20px;
+}
+
+#mainHeader {
+   color: #e5e5c9;
+   font-family: 'Permanent Marker', cursive;
+   height: 30px;
+   position:absolute;
+   left: 740px;
+   top: 15px;
+}
+
+.phoneContact { 
+   width: 200px;
+   height: 65px;
+   border-radius: 10px;
+   font-size: 17px;
+   border: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #00C9A7;
+   color: black;
+ }
+
+.phoneContact:hover {
+   transition: background-color 600ms ease-in-out, color 600ms ease-in-out;
+   background-color:#ffcd6f;
+   color:black;
+   cursor: pointer;
+}
+
+header ul {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+header ul li {
+   list-style: none;
+   background-color: #00b596;
+   margin-left: 80px;
+   margin-right: 80px;
+   cursor: pointer;
+   border: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+header ul li a {
+   font-family: 'Sofia Sans', sans-serif;
+   text-decoration: none;
+   font-weight: bolder;
+   border-radius: 8px;
+   padding: 4px;
+}
+
+header ul li:nth-child(1)
+{
+   font-family: 'Sofia Sans', sans-serif;
+   font-weight: bolder;
+   cursor: pointer;
+   border-radius: 8px;
+   padding: 4px;
+   background-color: #00C9A7;
+   border: none;
+   position: relative;
+   left: -6%;
+}
+
+header ul li:nth-child(2)
+{
+   font-family: 'Sofia Sans', sans-serif;
+   font-weight: bolder;
+   cursor: pointer;
+   border-radius: 8px;
+   padding: 4px;
+   background-color: #00C9A7;
+   border: none;
+   position: relative;
+   left: -6%;
+}
+
+header ul li:nth-child(3)
+{
+   font-family: 'Sofia Sans', sans-serif;
+   font-weight: bolder;
+   cursor: pointer;
+   border-radius: 8px;
+   padding: 4px;
+   background-color: #00C9A7;
+   border: none;
+   position: relative;
+   left: -6%;
+}
+
+header ul li:nth-child(4)
+{
+   font-family: 'Sofia Sans', sans-serif;
+   font-weight: bolder;
+   cursor: pointer;
+   border-radius: 8px;
+   padding: 4px;
+   background-color: #00C9A7;
+   border: none;
+   position: relative;
+   left: 9%;
+}
+
+header ul li:nth-child(5)
+{
+   font-family: 'Sofia Sans', sans-serif;
+   font-weight: bolder;
+   cursor: pointer;
+   border-radius: 8px;
+   padding: 4px;
+   background-color: #00C9A7;
+   border: none;
+   position: relative;
+   left: 10%;
+}
+
+header ul :hover {
+   transition: background-color 300ms linear, color 300ms linear;
+    cursor:pointer;
+    background-color: #ffcd6f;
+    color: #000;
+}
+
+.display-container{
+   display: flex;
+   justify-content:center;
+    align-items: center;
+    margin:50px auto;
+   
+}
+
+
+
+/* This is the main part from now on:  */
+
+main {   
+   height: 100vh;
+   background-color: #ffcd6f;
+   margin: auto;
+}
+
+.firstUl {
+   width: 1600px;
+   height: 30px;
+   border-radius: 20px;
+   margin-top: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #845EC2;
+   position: sticky;
+   /* Make the heading sticky... position: sticky; */
+   
+}
+
+.firstList {
+   font-family: 'Sofia Sans', sans-serif;
+   color: black;
+   list-style: none;
+   margin-left: 80px;
+   margin-right: 80px;
+   font-weight: bold;
+   cursor: pointer;
+   border-radius: 8px;
+   padding: 4px;
+}
+
+.firstUl :hover {
+   transition: background-color 600ms linear;
+   background-color: #ffcd6f;
+}
+
+main h1 {
+   font-family: 'Sofia Sans', sans-serif;
+   font-weight: bold;
+   color:black;
+   font-size: 60px;
+   text-align: center;
+
+}
+
+main p {
+   font-family: 'Sofia Sans', sans-serif;
+   font-weight: bold;
+   font-size: #000;
+   line-height: 30px;
+   margin-top: 25px;
+   margin-bottom: 25px;
+}
+
+main h2 {
+   font-family: 'Sofia Sans', sans-serif;
+}
+
+main  button { 
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: black;
+  margin-top: 30px;
+  font-family: 'Sofia Sans', sans-serif;
+}
+
+main button:hover {
+   transition: background-color 600ms linear, color 600ms linear;
+   background-color: #00C9A7;
+   color:darkorange;
+   cursor: pointer;
+}
+
+section img {
+   margin-top: 10px;
+   position: relative;
+   width: 200px;
+   left: 44%;
+   right: 50%;
+   margin-bottom: 10px;
+   height: 200px;
+}
+
+.secondUl {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(3, 200px);
+   list-style: none;
+}
+
+.secondList img{
+   height: 200px;
+   width: 200px;
+   cursor: pointer;
+}
+
+.secondList p {
+   cursor: pointer;
+}
+
+/* Footer part from now on:  */
+
+html {
+   background-color: #ffcd6f;
+   /* background-image: linear-gradient(to right, #a83377, #b1366a, #b63c5e, #b94453, #b94e49, #bb5643, #bc5e3e, #bc6639, #c06e35, #c37630, #c47e2b, #c58726 */
+}
+
+header {
+   width: 1600px;
+  height: 90px;
+   margin-top: 12px;
+   display: flex;
+  justify-content: space-between;
+  padding: 0px 25px;
+  align-items: center;
+  background-color: #00C9A7;
+  border-radius: 20px;
+}
+
+#mainHeader {
+   color: #e5e5c9;
+   font-family: 'Permanent Marker', cursive;
+   height: 30px;
+   position:absolute;
+   left: 740px;
+   top: 15px;
+}
+
+.phoneContact { 
+   width: 200px;
+   height: 65px;
+   border-radius: 10px;
+   font-size: 17px;
+   border: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #00C9A7;
+   color: black;
+   position: relative;
+   bottom: 30px;
+   left: 1350px;
+ }
+
+.phoneContact:hover {
+   transition: background-color 600ms ease-in-out, color 600ms ease-in-out;
+   background-color:#ffcd6f;
+   color:black;
+   cursor: pointer;
+}
+
+header ul {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+header ul li {
+   list-style: none;
+   background-color: #00b596;
+   margin-left: 80px;
+   margin-right: 80px;
+   cursor: pointer;
+   border: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   top: 15px;
+}
+header ul li a {
+   font-family: 'Sofia Sans', sans-serif;
+   text-decoration: none;
+   font-weight: bolder;
+   border-radius: 8px;
+   padding: 4px;
+}
+
+header ul li:nth-child(1)
+{
+   font-family: 'Sofia Sans', sans-serif;
+   font-weight: bolder;
+   cursor: pointer;
+   border-radius: 8px;
+   padding: 4px;
+   background-color: #00C9A7;
+   border: none;
+   position: relative;
+   left: -6%;
+}
+
+header ul li:nth-child(2)
+{
+   font-family: 'Sofia Sans', sans-serif;
+   font-weight: bolder;
+   cursor: pointer;
+   border-radius: 8px;
+   padding: 4px;
+   background-color: #00C9A7;
+   border: none;
+   position: relative;
+   left: -6%;
+}
+
+header ul li:nth-child(3)
+{
+   font-family: 'Sofia Sans', sans-serif;
+   font-weight: bolder;
+   cursor: pointer;
+   border-radius: 8px;
+   padding: 4px;
+   background-color: #00C9A7;
+   border: none;
+   position: relative;
+   left: -6%;
+}
+
+header ul li:nth-child(4)
+{
+   font-family: 'Sofia Sans', sans-serif;
+   font-weight: bolder;
+   cursor: pointer;
+   border-radius: 8px;
+   padding: 4px;
+   background-color: #00C9A7;
+   border: none;
+   position: relative;
+   left: 9%;
+}
+
+header ul li:nth-child(5)
+{
+   font-family: 'Sofia Sans', sans-serif;
+   font-weight: bolder;
+   cursor: pointer;
+   border-radius: 8px;
+   padding: 4px;
+   background-color: #00C9A7;
+   border: none;
+   position: relative;
+   left: 10%;
+}
+
+header ul :hover {
+   transition: background-color 300ms linear, color 300ms linear;
+    cursor:pointer;
+    background-color: #ffcd6f;
+    color: #000;
+}
+
+/* This is the main part from now on:  */
+
+main {   
+   height: 100vh;
+   background-color: #ffcd6f;
+   margin: auto;
+}
+
+.firstUl {
+   width: 1600px;
+   height: 30px;
+   border-radius: 20px;
+   margin-top: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #845EC2;
+   /* Make the heading sticky... position: sticky; */
+   
+}
+
+.firstList {
+   font-family: 'Sofia Sans', sans-serif;
+   color: black;
+   list-style: none;
+   margin-left: 80px;
+   margin-right: 80px;
+   font-weight: bold;
+   cursor: pointer;
+   border-radius: 8px;
+   padding: 4px;
+}
+
+.firstUl :hover {
+   transition: background-color 600ms linear;
+   background-color: #ffcd6f;
+}
+
+main h1 {
+   font-family: 'Sofia Sans', sans-serif;
+   font-weight: bold;
+   color:black;
+   font-size: 60px;
+   text-align: center;
+}
+
+main p {
+   font-family: 'Sofia Sans', sans-serif;
+   font-weight: bold;
+   font-size: #000;
+   line-height: 30px;
+   margin-top: 25px;
+   margin-bottom: 25px;
+}
+
+main h2 {
+   font-family: 'Sofia Sans', sans-serif;
+}
+
+main  button { 
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: black;
+  margin-top: 30px;
+  font-family: 'Sofia Sans', sans-serif;
+}
+
+main button:hover {
+   transition: background-color 600ms linear, color 600ms linear;
+   background-color: #00C9A7;
+   color:darkorange;
+   cursor: pointer;
+}
+
+section img {
+   margin-top: 10px;
+   position: relative;
+   width: 200px;
+   left: 44%;
+   right: 50%;
+   margin-bottom: 10px;
+   height: 200px;
+}
+
+.secondUl {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(3, 200px);
+   list-style: none;
+}
+
+.secondList img{
+   height: 200px;
+   width: 200px;
+   cursor: pointer;
+}
+
+.secondList p {
+   cursor: pointer;
+}
+
+/* Footer part from now on:  */
+
+footer p{
+   text-align: center;
+   font-weight: 900;
+ }
+ 
+ /* Add padding to the last paragraph */
+ footer p:last-child {
+   padding-top: 50px;
+   padding-bottom: 50px;
+ }
+ 
+ /* Make the footer responsive */
+ @media screen and (max-width: 768px) {
+   footer {
+     position: relative;
+     bottom: 0;
+   }
+   
+   footer p {
+     margin-top: 30px;
+     font-size: 1rem;
+   }
+   
+   footer p:last-child {
+     padding-top: 30px;
+     padding-bottom: 30px;
+   }
+ }
+* {
+   box-sizing: border-box;
+ }
+ 
+ /*magazina zapochva 
+ 
+ /* Clearfix (clear floats) */
+ .row::after {
+   content: "";
+   clear: both;
+   display: table;
+ }
+ 
+ /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 500px) {
+   .column {
+     width: 100%;
+   }
+ }
+ .amount{
+   text-align: center;
+ }
+
+ .box-container {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   
+ }
+  
+ .row{
+   display: flex;
+   justify-content: center;
+ }
+ .row .column{
+   
+   display: flex;
+   justify-content: center;
+   width: 25%;
+   padding: 5px;
+   
+  
+ }
+ .column .amount{
+   position: relative;
+   left: 90px;
+   font-size: 21px;
+   font-family: sans-serif;
+   bottom: -205px;
+ }
+
+ .content1 {
+   display: flex;
+   justify-content: center;
+   font-size: 25px;
+   margin-top: 60px;
+   font-family: 'Roboto Slab', serif;
+ }
+ .column h3 {
+   font-family: 'Roboto Slab', serif;
+   font-weight: 400;
+   font-size: 18px;
+ }
+ .column img {
+   height: 80%;
+   display: block;
+   
+   
+ }
+
+ .row2{
+   display: flex;
+   justify-content: center;
+   
+ }
+ .row2 .column2{
+   display: flex;
+   justify-content: center;
+   width: 25%;
+   padding: 5px;
+   position: relative;
+   
+
+ }
+
+ .content2 {
+   position: relative;
+   justify-content: center;
+   left: 685px;
+   font-size: 25px;
+   font-family: sans-serif;
+ }
+ .column2 .amount2{
+   position: relative;
+   left: 80px;
+   font-size: 21px;
+   font-family: sans-serif;
+   bottom: -150px;
+ }
+
+ .column2 img{
+   height: 80%;
+   
+ }
+
+
+
+
+ .row3{
+   display: flex;
+   justify-content: center;
+   
+ }
+ .row3 .column3{
+   display: flex;
+   justify-content: center;
+   width: 25%;
+   padding: 5px;
+
+ }
+
+
+ .content3 {
+   position: relative;
+   justify-content: center;
+   left: 650px;
+   font-size: 25px;
+   font-family: sans-serif;
+ }
+ .column3 .amount3{
+   position: relative;
+   left: 80px;
+   font-size: 21px;
+   font-family: sans-serif;
+   bottom: -150px;
+ }
+
+ .column3 img{
+   height: 80%;
+   
+ }
+
+
+.row4 {
+   display: flex;
+   justify-content: center;
+}
+.row4 .column4{
+   display: flex;
+   justify-content: center;
+   width: 25%;
+   padding: 5px;
+ }
+
+
+ .content4 {
+   position: relative;
+   justify-content: center;
+   left: 650px;
+   font-size: 25px;
+   font-family: sans-serif;
+ }
+ 
+ 
+ .column4 .amount4{
+   position: relative;
+   left: 80px;
+   font-size: 21px;
+   font-family: sans-serif;
+   bottom: -250px;
+ }
+.column4 img{
+   height: 80%;
+   
+}
+img {
+   width: 100%;
+   height: auto;
+   margin: auto;
+   position: relative;
+ }
+ 
+ 
+@media screen and (max-width: 50rem) {
+   .column2 {
+     width: 100%;
+   }
+ }
+ .amount2{
+   text-align: center;
+ }
+ @media screen and (max-width: 80rem) {
+   .column3 {
+     width: 100%;
+   }
+ }
+ @media screen and (min-width: 40rem) {
+   .column3 {
+     width: 100%;
+   }
+ }
+ .amount3 {
+   text-align: center;
+ }
+ @media screen and (max-width: 50rem) {
+   .column4 {
+     width: 100%;
+   }
+ }
+ .amount4 {
+   text-align: center;
+ }
+
+ #magazin {
+   position: relative;
+   right: 220px
+ }
+
+.column, .column2, .column3, .column4 {
+   border: 1.4px solid black;
+   border-radius: 30px;
+   margin-right: 50px ;
+   height: 200px;
+}
+
+.column:hover, .column2:hover, .column3:hover, .column4:hover {
+   transition: background-color 600ms ease-in-out;
+   background-color:  #00C9A7;
+   cursor: pointer;
+}
+
+.column4 img, .column3 img, .column2 img, .column img {
+   position: relative;
+   left: 50px;
+   bottom: 7px;
+}
+
+.column, .amount, .column2, .amount2, .column3, .amount3, .column4, .amount4 {
+   position: relative;
+   left: 230px;
+}
+
+#price {
+   position: relative;
+   bottom: 70px;
+   right: 230px;
+   font-family: Verdana, sans-serif;
+   font-weight: lighter;
+   font-size: 20px;
+}
+
+#price2 {
+   position: relative;
+   bottom: 11px;
+   right: 230px;
+   font-family: Verdana, sans-serif;
+   font-weight: lighter;
+   font-size: 20px;
+}
+
+#price4 {
+   position: relative;
+   bottom: 111px;
+   right: 230px;
+   font-family: Verdana, sans-serif;
+   font-weight: lighter;
+   font-size: 20px;
+}
+
+.headingshop, .content1{
+   position: relative;
+   left: 170px;
+}
+
+.content3, .content2 {
+   position: relative;
+   left: 870px;
+}
+
+.content4 {
+   position: relative;
+   left: 780px;
+}
+#cart {
+   height: 15%;
+   width: 15%;
+   position: relative;
+   top: 150px;
+   left: -125px;
+}
+.column2 h3 {
+   font-family: 'Roboto Slab', serif;
+   font-weight: 400;
+   font-size: 18px;
+}
+.column3 h3 {
+   font-family: 'Roboto Slab', serif;
+   font-weight: 400;
+   font-size: 18px;
+}
+.column4 h3 {
+   font-family: 'Roboto Slab', serif;
+   font-weight: 400;
+   font-size: 18px;
+}
+h2{
+   
+   display: flex;
+   justify-content: center;
+ 
+   
+   
+}
+
+footer p{
+   text-align: center;
+   justify-content: center;
+   display: flex;
+   margin-top: 60px;
+   position: relative;
+   top: 740px;
+   font-weight:900;
+
+}
+footer p:last-child {
+   padding-top: -50px;
+   padding-bottom: 50px;
+}
+
+
+.magazin h2{
+   text-align: center;
+   position: relative;
+   right: -250px;
+   text-underline-position: under;
+
+   
+}
+
+@media only screen and (max-width: 600px) {
+   main{
+      position: relative;
+      
+   }
+   @media only screen and (min-width: 100px){
+      .col-1 {width: 8.33%;}
+   .col-2 {width: 16.66%;}
+   .col-3 {width: 25%;}
+   .col-4 {width: 33.33%;}
+   .col-5 {width: 41.66%;}
+   .col-6 {width: 50%;}
+   .col-7 {width: 58.33%;}
+   .col-8 {width: 66.66%;}
+   .col-9 {width: 75%;}
+   .col-10 {width: 83.33%;}
+   .col-11 {width: 91.66%;}
+   .col-12 {width: 100%;}
+   
+    }
+
+ }
