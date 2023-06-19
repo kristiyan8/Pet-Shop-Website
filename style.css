@@ -503,7 +503,7 @@ img {
    width: 100%;
  }
 
-@media screen and (max-width: 768px ) {
+@media screen and (max-width: 800px ) {
    #mainHeader
       .col-1 {width: 8.33%;}
       .col-2 {width: 16.66%;}
