@@ -318,7 +318,7 @@ img {
    vertical-align: middle;
    
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
    /* For mobile phones: */
    [class*="slideshow-container"] {
      width: 100%;
