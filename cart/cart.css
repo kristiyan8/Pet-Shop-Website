@@ -585,4 +585,11 @@ html {
    position: relative;
    margin: 250px;
    width: auto;
+   left: 50px;
+
+ }
+ .product{
+   position: relative;
+   bottom: -100px;
+   
  }
