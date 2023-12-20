@@ -580,3 +580,9 @@ html {
     top: -70px;
     padding-bottom: -200px;
  }
+
+ .fa-shopping-cart{
+   position: relative;
+   margin: 250px;
+   width: auto;
+ }
