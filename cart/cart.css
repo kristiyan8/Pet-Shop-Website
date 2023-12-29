@@ -598,3 +598,8 @@ html {
    margin-left: 50px;
    bottom: 20px;
 }
+#cart-list{
+   position: relative;
+   left: -500px;
+   padding: 300px;
+}
